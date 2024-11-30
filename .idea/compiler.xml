@@ -6,18 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Eureka-discoveryService" />
+        <module name="CommandeService" />
         <module name="ConfigService" />
         <module name="UtilisateurService" />
+        <module name="ProduitService" />
+        <module name="Eureka-discoveryService" />
         <module name="GatewayService" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CommandeService" options="-parameters" />
       <module name="ConfigService" options="-parameters" />
       <module name="Eureka-discoveryService" options="-parameters" />
       <module name="GatewayService" options="-parameters" />
+      <module name="ProduitService" options="-parameters" />
+      <module name="RecommendationService" options="-parameters" />
       <module name="UtilisateurService" options="-parameters" />
     </option>
   </component>

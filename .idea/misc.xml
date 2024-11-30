@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/GatewayService/pom.xml" />
         <option value="$PROJECT_DIR$/Eureka-discoveryService/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigService/pom.xml" />
+        <option value="$PROJECT_DIR$/ProduitService/pom.xml" />
+        <option value="$PROJECT_DIR$/CommandeService/pom.xml" />
+        <option value="$PROJECT_DIR$/RecommandationService/pom.xml" />
       </list>
     </option>
   </component>
