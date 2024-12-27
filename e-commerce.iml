@@ -5,5 +5,11 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="2" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+
+    <orderEntry type="library" name="spring-boot-starter-actuator-3.4.0" level="project" />
+    <orderEntry type="library" name="spring-kafka-2.8.0" level="project" />
+
+
+
   </component>
 </module>

@@ -1,35 +1,33 @@
 package org.ai.produitservice.Entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Data
+import java.util.List;
+
+@Getter
+@Setter
 @Entity
-public class Produit {
+public class Category {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(nullable = false, unique = true)
     private String nom;
 
     private String description;
 
-    private double prix;
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Produit> produits;
 
-    @ManyToOne
-    @JoinColumn(name = "category_id", nullable = false)
-    private Category category;
-
-    public Produit() {
+    public Category() {
     }
 
-    public Produit(String nom, String description, double prix, Category category) {
+    public Category(String nom, String description) {
         this.nom = nom;
         this.description = description;
-        this.prix = prix;
-        this.category = category;
     }
 }

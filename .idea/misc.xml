@@ -11,10 +11,11 @@
         <option value="$PROJECT_DIR$/ProduitService/pom.xml" />
         <option value="$PROJECT_DIR$/CommandeService/pom.xml" />
         <option value="$PROJECT_DIR$/RecommandationService/pom.xml" />
+        <option value="$PROJECT_DIR$/RecommendationService/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="2" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

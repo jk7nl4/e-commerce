@@ -1,4 +1,4 @@
-package org.ai.produitservice.Controller;
+package org.ai.produitservice.Cotroller;
 
 import org.ai.produitservice.Entity.Produit;
 import org.ai.produitservice.Service.ProduitService;

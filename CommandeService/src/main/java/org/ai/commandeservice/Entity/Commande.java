@@ -24,9 +24,9 @@ public class Commande {
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "commande_id")
-    private List<ProduitCommande> produits; // List of products in the order
+    private List<ProduitCommande> produits;
 
     private String statut; // e.g., "En attente", "Confirmée", "Livrée"
 
-    // Additional fields (e.g., shipping address) can be added
+
 }

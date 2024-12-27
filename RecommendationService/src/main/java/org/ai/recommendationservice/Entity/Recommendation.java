@@ -13,9 +13,9 @@ public class Recommendation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long utilisateurId; // User for whom the recommendation is made
+    private Long utilisateurId;
 
-    private Long produitId; // Recommended product
+    private Long produitId;
 
-    private double score; // Relevance score for recommendation
+    private double score;
 }
